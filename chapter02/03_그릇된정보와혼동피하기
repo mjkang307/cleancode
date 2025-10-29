@@ -1,0 +1,7 @@
+#before
+accountList = "user_accounts.txt"  # 실제 리스트가 아님
+theO = 0  # 숫자 0과 혼동
+
+#after
+accountFilePath = "user_accounts.txt"  # 실제 경로임을 명시
+zeroCount = 0  # 숫자 0과 구분되는 명확한 이름
