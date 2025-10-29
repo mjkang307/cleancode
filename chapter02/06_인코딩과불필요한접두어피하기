@@ -1,0 +1,9 @@
+#before 
+strName = "Alice"
+iCount = 3
+m_userName = "Bob"
+
+#after
+name = "Alice"
+count = 3
+user_name = "Bob"
