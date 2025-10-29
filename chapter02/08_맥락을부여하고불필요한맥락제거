@@ -1,0 +1,6 @@
+#before
+state = "CA"  # 무슨 state인지 불분명
+
+#after
+address.state = "CA"  # Address의 하위 속성임이 명확
+
