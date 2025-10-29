@@ -1,0 +1,5 @@
+#before
+genymdhms = datetime.now().strftime("%Y%m%d%H%M%S")
+
+#after
+generationTimestamp = datetime.now().strftime("%Y%m%d%H%M%S")
