@@ -1,0 +1,9 @@
+#before
+class Save:
+    def data(self):
+        pass
+
+#after
+class DataSaver:
+    def save_data(self):
+        pass
