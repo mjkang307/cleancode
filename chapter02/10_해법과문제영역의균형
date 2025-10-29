@@ -1,0 +1,7 @@
+#before
+def calculate():
+    pass  # 보험료 계산 코드
+
+#after
+def calculateInsurancePremium():
+    pass  # 도메인 용어를 명확히 반영
