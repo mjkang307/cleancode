@@ -1,0 +1,7 @@
+#before
+def holyHandGrenade():
+    deleteAllItems()
+
+#after
+def deleteItems():
+    deleteAllItems()
