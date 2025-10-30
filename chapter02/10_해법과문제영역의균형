@@ -1,7 +1,9 @@
 #before
-def calculate():
-    pass  # 보험료 계산 코드
+public void save() {
+    // 이자 계산 및 반영
+}
 
 #after
-def calculateInsurancePremium():
-    pass  # 도메인 용어를 명확히 반영
+public void applyInterestToSavingsAccounts() {
+    // 도메인 용어(이자, 예금계좌)를 반영
+}
