@@ -1,15 +1,15 @@
 #before
-def getThem():
-    result = []
-    for x in theList:
-        if x[0] == 4:
-            result.append(x)
-    return result
+public class AccountService {
+
+    public List<Account> getData(String s) {
+        return accountRepository.findAllByC(s);
+    }
+}
 
 #after
-def getFlaggedCells():
-    flagged_cells = []
-    for cell in game_board:
-        if cell.status == FLAGGED:
-            flagged_cells.append(cell)
-    return flagged_cells
+public class AccountService {
+
+    public List<Account> getAccountsByCustomerId(String customerId) {
+        return accountRepository.findAllByCustomerId(customerId);
+    }
+}
