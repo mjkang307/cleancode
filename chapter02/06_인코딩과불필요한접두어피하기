@@ -1,9 +1,7 @@
 #before 
-strName = "Alice"
-iCount = 3
-m_userName = "Bob"
+private String m_strAcctNo;
+private int iCnt;
 
 #after
-name = "Alice"
-count = 3
-user_name = "Bob"
+private String accountNumber;
+private int count;
