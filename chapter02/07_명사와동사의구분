@@ -1,9 +1,9 @@
 #before
-class Save:
-    def data(self):
-        pass
+public class Transfer {
+    public void process() { ... }
+}
 
 #after
-class DataSaver:
-    def save_data(self):
-        pass
+public class TransferService {
+    public void executeTransfer() { ... }
+}
