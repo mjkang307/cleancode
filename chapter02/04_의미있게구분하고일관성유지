@@ -1,19 +1,14 @@
 #before
-def getUserInfo():
-    pass
 
-def fetchUserData():
-    pass
+    public AccountResponse getInfo(String id) { ... }
+    public AccountResponse fetchData(String id) { ... }
+    public AccountResponse retrieveInfo(String id) { ... }
+}
 
-def retrieveUserRecord():
-    pass
 
 #after
-def getUserData():
-    pass
+    public AccountResponse getAccount(String id) { ... }
+    public AccountDetailResponse getAccountDetail(String id) { ... }
+    public List<TransactionResponse> getAccountTransactions(String id) { ... }
+}
 
-def getUserProfile():
-    pass
-
-def getUserHistory():
-    pass
