@@ -1,7 +1,9 @@
 #before
-def holyHandGrenade():
-    deleteAllItems()
+public void godMode() {
+    // 전 계좌 잔액 초기화
+}
 
 #after
-def deleteItems():
-    deleteAllItems()
+public void resetAllAccountBalances() {
+    // 전 계좌 잔액 초기화
+}
